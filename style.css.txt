@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f4f1ec;
+}
+
+header {
+    background: #2c2c2c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 70px);
+}
+
+.chapters {
+    width: 250px;
+    background: #1e1e1e;
+    color: white;
+    padding: 15px;
+}
+
+.chapters ul {
+    list-style: none;
+    padding: 0;
+}
+
+.chapters li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+}
+
+.chapters li:hover {
+    background: #333;
+}
+
+.reader {
+    flex: 1;
+    padding: 40px;
+    background: #fff;
+    overflow-y: auto;
+    line-height: 1.8;
+}
+
+.reader h2 {
+    margin-top: 0;
+}
