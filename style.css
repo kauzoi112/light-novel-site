@@ -49,3 +49,27 @@ header {
 .reader h2 {
     margin-top: 0;
 }
+/* 🌙 Gece Modu */
+body.dark {
+    background-color: #0f0f0f;
+    color: #eaeaea;
+}
+
+body.dark .reader {
+    background-color: #0f0f0f;
+    color: #eaeaea;
+}
+
+body.dark .chapters {
+    background-color: #111;
+}
+
+body.dark .chapters li {
+    border-bottom: 1px solid #333;
+}
+
+body.dark header {
+    background-color: #000;
+}
+
+
